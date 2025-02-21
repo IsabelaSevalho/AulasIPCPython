@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/Cliente.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listas_extras/MainBradesco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/treino2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/treino1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios_aula/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.MainBradesco.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.treino2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\exercicios_aula" />
+      <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython" />
       <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\listas_extras" />
     </key>
   </component>
