@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/treino2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/joaoPescador.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/salarioComImposto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/tintas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/tintasGaloesLatas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/treino1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios_aula/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/Cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/cursos/Cliente.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/MainBradesco.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/cursos/MainBradesco.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +52,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.MainBradesco.executor": "Run",
+    "Python.joaoPescador.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.salarioComImposto.executor": "Run",
     "Python.teste.executor": "Run",
+    "Python.tintas.executor": "Run",
+    "Python.tintasGaloesLatas.executor": "Run",
     "Python.treino2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,6 +66,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\listas_extras\cursos" />
       <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\exercicios_aula" />
       <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython" />
       <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\listas_extras" />
@@ -81,5 +89,16 @@
       <updated>1740068245414</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/listas_extras/salarioComImposto.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
