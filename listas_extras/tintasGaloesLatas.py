@@ -11,20 +11,21 @@ import math
 
 area_pintada = float(input("Digite o tamanho em metros quadrados da área a ser pintada: "))
 qntd_tinta = area_pintada/6
+qntd_tinta_folga = qntd_tinta + ((10/100)*qntd_tinta)
 #1l -- 6m
 
-qntd_latas = math.ceil(qntd_tinta+(0.1*qntd_tinta)/18)
+qntd_latas = math.ceil(qntd_tinta_folga/18)
 preco_so_latas = qntd_latas*80
 print("Comprando apenas latas de 18 litros temos a quantidade de ", qntd_latas, " latas por R$", preco_so_latas)
 
-qntd_galoes = math.ceil(qntd_tinta+(0.1*qntd_tinta)/3.6)
+qntd_galoes = math.ceil(qntd_tinta_folga/3.6)
 preco_so_galoes = qntd_galoes*25
 print("Comprando apenas galões de 3,6 litros temos a quantidade de ", qntd_galoes, " galões por R$", preco_so_galoes)
 
-qntd_latas_mistura = qntd_tinta+(0.1*qntd_tinta)//18
+qntd_latas_mistura = qntd_tinta_folga//18
 qntd_litros_latas = qntd_latas_mistura *18
 
-resto_tinta = (qntd_tinta+(0.1*qntd_tinta))-qntd_litros_latas
+resto_tinta = qntd_tinta_folga-qntd_litros_latas
 
 qntd_galoes_mistura = math.ceil(resto_tinta/3.6)
 preco_mistura = qntd_galoes_mistura*25 + qntd_latas_mistura*80
