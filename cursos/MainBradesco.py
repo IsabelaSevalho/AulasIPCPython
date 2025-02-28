@@ -3,7 +3,7 @@ class MainBradesco:
 
 print("Olá, a classe MainBradesco está funcionando!!")
 
-from listas_extras.cursos.Cliente import Cliente
+from cursos.Cliente import Cliente
 cliente1 = Cliente("Mariana", 98888)
 
 print (cliente1)
