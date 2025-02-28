@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/ensinando.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/trianguloAngulosMarcinha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/cursos/Cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/cursos/Cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/cursos/MainBradesco.py" beforeDir="false" afterPath="$PROJECT_DIR$/cursos/MainBradesco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/ensinando.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/ensinando.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "Python.tintas.executor": "Run",
     "Python.tintasGaloesLatas.executor": "Run",
     "Python.treino2.executor": "Run",
+    "Python.trianguloAngulosMarcinha.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"

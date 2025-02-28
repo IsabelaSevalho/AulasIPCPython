@@ -53,3 +53,5 @@ def usoDeGlobal():
 
 #usoDeGlobal()
 #print("Python is " + e)
+
+
