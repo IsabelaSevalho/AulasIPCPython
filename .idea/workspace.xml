@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/trianguloAngulosMarcinha.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/medias15Marcinha.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/ensinando.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/ensinando.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/trianguloAngulosMarcinha.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/trianguloAngulos1213Marcinha.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "Python.ensinando.executor": "Run",
     "Python.joaoPescador.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.medias15Marcinha.executor": "Run",
     "Python.salarioComImposto.executor": "Run",
     "Python.teste.executor": "Run",
     "Python.tintas.executor": "Run",
