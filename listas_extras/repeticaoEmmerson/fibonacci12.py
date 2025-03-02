@@ -8,7 +8,7 @@ aux = n
 #onde começo, parar antes disso
 print(f"A série Fibonacci com {qntd_termos} é: ")
 for i in range(0, qntd_termos):
-    aux =n
     print(f"{n} ")
+    aux = n
     n += valor_anterior
     valor_anterior = aux

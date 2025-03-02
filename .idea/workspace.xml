@@ -9,9 +9,12 @@
       <change afterPath="$PROJECT_DIR$/listas_extras/lista1/gorjeta16.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/listas_extras/lista1/quadradoRaiz14.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/listas_extras/lista1/trocaValores20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/bergamacci13.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/fatorial11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/fetuccine15.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/fibonacci12.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/inverteNumero10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/ricci14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +60,7 @@
     "Python.download.executor": "Run",
     "Python.ensinando.executor": "Run",
     "Python.fatorial11.executor": "Run",
+    "Python.fibonacci12.executor": "Run",
     "Python.gorjeta16.executor": "Run",
     "Python.inverteNumero10.executor": "Run",
     "Python.joaoPescador.executor": "Run",
