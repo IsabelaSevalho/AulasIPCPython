@@ -1,0 +1,1 @@
+'''13.Fazer um programa para achar a série de Bergamacci dos n primeiros termos: 1 1 1 1 3 5 9 17 ...'''
