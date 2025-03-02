@@ -7,4 +7,5 @@ soma_sequencia = 0
 
 print(f"A sequência Bergamacci com {qntd_termos} termos é:")
 for i in range(0, qntd_termos):
-    ouu
+
+# NÃO ESTOU CONSEGUINDO
