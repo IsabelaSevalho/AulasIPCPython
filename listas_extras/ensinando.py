@@ -22,7 +22,7 @@ def conversaoEntrada():
 #usos do print
 def usosPrint():
     print(f"Usando o format é assim para exibir a varíavel {a} que vc quiser")  # format
-    print("Apenas colocando no print fora das aspas e lembrando de separar por vírgula: ",a)  # assim suporta tipos diferentes
+    print("Apenas colocando no print fora das aspas e lembrando de separar por vírgula: ",a, "gtfrdctrd")  # assim suporta tipos diferentes
     print("Convertendo para string a variável " + str(a) + " já que é possível")  # concatenação = unir duas ou mais strings em uma única string
 
 def concatena():
@@ -33,11 +33,10 @@ def concatena():
 
     txt = f"The price is {20 * 59} dollars"
     print(txt)
-    """txt2 = "The price is "+20 * 59+" dollars"
-    print(txt2)""" #aqui dá erro
+
 
 #var globais != var funcoes
-#x = "awesome"
+x = "awesome"
 
 def globaisCompara():
     x = "fantastic"
@@ -51,7 +50,9 @@ def usoDeGlobal():
     global e
     e = "fantastic"
 
-#usoDeGlobal()
-#print("Python is " + e)
+usoDeGlobal()
+print("Python is " + e)
+
+
 
 
