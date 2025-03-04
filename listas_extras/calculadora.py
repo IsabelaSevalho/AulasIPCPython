@@ -28,6 +28,7 @@ def exibeHistorico():
 def adicionaAoHistorico(expressao, resultado):
     historico.append(f"{expressao} = {resultado}")
 
+
 print("Calculadora :)")
 while True:
     exp = input("\nDigite uma expressão matemática\nCaso não queira mais calcular, digite \'s\' para sair OU \'h\' para acessar seu histórico: ")
