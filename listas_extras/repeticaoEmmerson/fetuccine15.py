@@ -6,22 +6,25 @@ qntd_termos = int(input("Digite a quantidade de termos para a série Fetuccine: 
 termo_1 = int(input("Digite o primeiro termo da sua sequência: "))
 termo_2 = int(input("Digite o segundo termo da sua sequência: "))
 
-n = termo_2
-aux = n
-termo_anterior = aux
+n = 0
+anterior1 = termo_1
+anterior2= termo_2
+
 print("A sequência é: ")
 print(termo_1)
+print(termo_2)
 
-for i in range(1, qntd_termos):
+for i in range(1, qntd_termos-1):
+
     if (i%2)==0:
+        n = anterior2 - anterior1
+        anterior1 = anterior2
+        anterior2 = n
         print(n)
-        aux = n
-        n -= termo_anterior
-        termo_anterior = aux
-    else:
-        print(n)
-        aux = n
-        n += termo_anterior
-        termo_anterior = aux
 
-#NÃO ESTOU CONSEGUINDO
+    else:
+        n = anterior2 + anterior1
+        anterior1 = anterior2
+        anterior2 = n
+        print(n)
+

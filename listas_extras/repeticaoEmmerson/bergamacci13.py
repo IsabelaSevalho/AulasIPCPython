@@ -2,10 +2,16 @@
 
 qntd_termos = int(input("Digite a quantidade de termos que vc deseja ver na séria Bergamacci: "))
 n= 1
-aux = n
-soma_sequencia = 0
+val_1 = 0
+val_2 = 0
+val_3 = 0
 
 print(f"A sequência Bergamacci com {qntd_termos} termos é:")
-for i in range(0, qntd_termos):
+for i in range(qntd_termos):
+    print(n)
 
-# NÃO ESTOU CONSEGUINDO
+    val_1 = val_2
+    val_2 = val_3
+    val_3 = n
+
+    n = val_1 + val_2 + val_3
