@@ -16,20 +16,18 @@ import os
 
 dic_candidatos = {}
 dic_votos = {}
-global numero
 
 def validaNumero(n):
     while not n.isdigit():
         print("Número inválido, digite novamente!!")
         n = input("\nDigite o número do candidato: ")
-        numero = n
 
     else:
         while len(n) != 2:
             print("Número inválido, digite novamente! Só são aceitos números com 2 dígitos!")
             n = input("\nDigite o número do candidato: ")
         else:
-            numero = n
+            return n
 
 
 def votacao():
@@ -49,7 +47,7 @@ def votacao():
             total += 1
 
         else:
-            print("\n\nO seu candidato é: ", dic_candidatos[n_voto].upper(),
+            print("\nO seu candidato é: ", dic_candidatos[n_voto].upper(),
                   "\nGostaria de confirmar a votação? Digite S para \"sim\" ou N para \"não\"")
 
             if input().upper() == "S":
@@ -72,8 +70,8 @@ try:
     qntd_candidatos = int(input("Digite a quantidade de candidatos que vc deseja cadastrar: "))
 
     for i in range(qntd_candidatos):
-        numero = input("\nDigite o número do candidato: ")
-        validaNumero(numero)
+        numero_p_validar = input("\nDigite o número do candidato: ")
+        numero = validaNumero(numero_p_validar)
 
         nome = input("Digite o nome do candidato: ")
 
@@ -93,7 +91,7 @@ try:
         lista_qntd_voto = dic_votos.values()
 
         for i in range(len(lista_voto)):
-            print(f"Para {lista_voto[i].upper()}: {lista_qntd_voto[i]} votos"
+            print(f"Para {lista_voto[i]}: {lista_qntd_voto[i]} votos"
                   f"\nPorcentagem: {(lista_qntd_voto[i] / 100) * total}%;\n")
         else:
             print("FIM :)")
