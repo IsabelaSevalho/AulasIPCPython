@@ -38,7 +38,7 @@ def votacao():
     while continuar:
         n_voto = input("Digite o número do candidato que vc deseja votar: ")
 
-        if n_voto is None:
+        if n_voto is None or n_voto=="" or n_voto==" ":
             dic_votos["Votos brancos"] +=1
             total += 1
 
@@ -86,13 +86,11 @@ try:
         print("\n\nVOTAÇÃO VEEEI  :)\n")
         votacao()
 
-        print("Os resultados da votação, com o total de", total, "votos, são:")
-        lista_voto = dic_votos.keys()
-        lista_qntd_voto = dic_votos.values()
+        print("Os resultados da votação, com o total de", total, "votos, são:\n")
 
-        for i in range(len(lista_voto)):
-            print(f"Para {lista_voto[i]}: {lista_qntd_voto[i]} votos"
-                  f"\nPorcentagem: {(lista_qntd_voto[i] / 100) * total}%;\n")
+        for chave in dic_votos.keys():
+            print(f"Para {chave}: {dic_votos[chave]} votos"
+                  f"\nPorcentagem: {(dic_votos[chave]/total)*100}%;\n")
         else:
             print("FIM :)")
 
