@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/numeroPerfeito17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios_aula/strings1103.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
     "Python.anosIdade22.executor": "Run",
     "Python.bergamacci13.executor": "Run",
     "Python.calculadora.executor": "Run",
+    "Python.dezenas18.executor": "Run",
     "Python.download.executor": "Run",
     "Python.ensinando.executor": "Run",
     "Python.fatorial11.executor": "Run",
@@ -66,6 +68,7 @@
     "Python.quadradoRaiz14.executor": "Run",
     "Python.ricci14.executor": "Run",
     "Python.salarioComImposto.executor": "Run",
+    "Python.strings1103.executor": "Run",
     "Python.teste.executor": "Run",
     "Python.tintas.executor": "Run",
     "Python.tintasGaloesLatas.executor": "Run",
