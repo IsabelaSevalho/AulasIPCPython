@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/numeroPrimo16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/numeroPerfeito17.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +61,7 @@
     "Python.main.executor": "Run",
     "Python.medias15Marcinha.executor": "Run",
     "Python.milly.executor": "Run",
+    "Python.numeroPerfeito17.executor": "Run",
     "Python.numeroPrimo16.executor": "Run",
     "Python.quadradoRaiz14.executor": "Run",
     "Python.ricci14.executor": "Run",
