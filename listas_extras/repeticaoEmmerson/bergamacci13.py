@@ -21,3 +21,5 @@ for i in range(qntd_termos):
         n = val_1 + val_2 + val_3
 
     print(n)
+
+#funcionando com gambiarra
