@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/cursos/Conta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cursos/usaConta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/decParaBin20.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/decParaBin20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/quatroDigitos19.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/quatroDigitos19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/milly.py" beforeDir="false" afterPath="$PROJECT_DIR$/milly.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Conta.executor": "Run",
     "Python.MainBradesco.executor": "Run",
     "Python.anosIdade22.executor": "Run",
     "Python.bergamacci13.executor": "Run",
