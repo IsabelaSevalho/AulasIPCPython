@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicios_aula/strings1103.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/decParaBin20.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/decParaBin20.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/dezenas18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/quatroDigitos19.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas_extras/repeticaoEmmerson/quatroDigitos19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/milly.py" beforeDir="false" afterPath="$PROJECT_DIR$/milly.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Python.anosIdade22.executor": "Run",
     "Python.bergamacci13.executor": "Run",
     "Python.calculadora.executor": "Run",
+    "Python.decParaBin20.executor": "Run",
     "Python.dezenas18.executor": "Run",
     "Python.download.executor": "Run",
     "Python.ensinando.executor": "Run",
@@ -61,11 +64,13 @@
     "Python.inverteNumero10.executor": "Run",
     "Python.joaoPescador.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.media.executor": "Run",
     "Python.medias15Marcinha.executor": "Run",
     "Python.milly.executor": "Run",
     "Python.numeroPerfeito17.executor": "Run",
     "Python.numeroPrimo16.executor": "Run",
     "Python.quadradoRaiz14.executor": "Run",
+    "Python.quatroDigitos19.executor": "Run",
     "Python.ricci14.executor": "Run",
     "Python.salarioComImposto.executor": "Run",
     "Python.strings1103.executor": "Run",
