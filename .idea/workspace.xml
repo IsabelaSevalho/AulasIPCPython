@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cursos/Conta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursos/usaConta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios_aula/aula2503.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios_aula/decompoeCedulas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Python.bergamacci13.executor": "Run",
     "Python.calculadora.executor": "Run",
     "Python.decParaBin20.executor": "Run",
+    "Python.decompoeCedulas.executor": "Run",
     "Python.dezenas18.executor": "Run",
     "Python.download.executor": "Run",
     "Python.ensinando.executor": "Run",
