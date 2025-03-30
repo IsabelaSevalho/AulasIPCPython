@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicios_aula/decompoeCedulasMoedas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trigonometriaENGEMAT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios_aula/aula2503.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios_aula/aula2703.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trigonometriaENGEMAT.py" beforeDir="false" afterPath="$PROJECT_DIR$/trigonometriaENGEMAT.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,51 +44,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Conta.executor": "Run",
-    "Python.MainBradesco.executor": "Run",
-    "Python.anosIdade22.executor": "Run",
-    "Python.aula2703.executor": "Run",
-    "Python.bergamacci13.executor": "Run",
-    "Python.calculadora.executor": "Run",
-    "Python.decParaBin20.executor": "Run",
-    "Python.decompoeCedulas.executor": "Run",
-    "Python.decompoeCedulasMoedas.executor": "Run",
-    "Python.dezenas18.executor": "Run",
-    "Python.download.executor": "Run",
-    "Python.ensinando.executor": "Run",
-    "Python.fatorial11.executor": "Run",
-    "Python.fetuccine15.executor": "Run",
-    "Python.fibonacci12.executor": "Run",
-    "Python.gorjeta16.executor": "Run",
-    "Python.inverteNumero10.executor": "Run",
-    "Python.joaoPescador.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.media.executor": "Run",
-    "Python.medias15Marcinha.executor": "Run",
-    "Python.milly.executor": "Run",
-    "Python.numeroPerfeito17.executor": "Run",
-    "Python.numeroPrimo16.executor": "Run",
-    "Python.quadradoRaiz14.executor": "Run",
-    "Python.quatroDigitos19.executor": "Run",
-    "Python.ricci14.executor": "Run",
-    "Python.salarioComImposto.executor": "Run",
-    "Python.strings1103.executor": "Run",
-    "Python.teste.executor": "Run",
-    "Python.tintas.executor": "Run",
-    "Python.tintasGaloesLatas.executor": "Run",
-    "Python.treino2.executor": "Run",
-    "Python.trianguloAngulosMarcinha.executor": "Run",
-    "Python.trigonometriaENGEMAT.executor": "Run",
-    "Python.trocaValores20.executor": "Run",
-    "Python.tuplasCandidatos.executor": "Run",
-    "Python.tuplasNomeSalario.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Conta.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MainBradesco.executor&quot;: &quot;Run&quot;,
+    &quot;Python.anosIdade22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aula2703.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bergamacci13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculadora.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decParaBin20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decompoeCedulas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decompoeCedulasMoedas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dezenas18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.download.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ensinando.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fatorial11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fetuccine15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fibonacci12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gorjeta16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inverteNumero10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.joaoPescador.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.media.executor&quot;: &quot;Run&quot;,
+    &quot;Python.medias15Marcinha.executor&quot;: &quot;Run&quot;,
+    &quot;Python.milly.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numeroPerfeito17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numeroPrimo16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quadradoRaiz14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quatroDigitos19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ricci14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.salarioComImposto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.strings1103.executor&quot;: &quot;Run&quot;,
+    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tintas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tintasGaloesLatas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.treino2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trianguloAngulosMarcinha.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trigonometriaENGEMAT.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trocaValores20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuplasCandidatos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuplasNomeSalario.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuário\PycharmProjects\AulasIPCPython\listas_extras\lista1" />
