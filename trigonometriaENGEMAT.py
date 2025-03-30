@@ -16,29 +16,34 @@ def plotUnitCircle(x_cosseno, y_seno, tangente):
     eixos.axvline(x=0.0, color="black")  # define o eixo y
 
     # verificação para que não corte a tangente ao MONTAR O PLANO CARTESIANO
-    if tangente <= 1:
-        plt.ylim(-1.0, 1.0)  # define o limite de y no plot
-        plt.xlim(-1.0, 1.0)  # define o limite de x no plot
+    if (tangente > 0.0 and tangente <= 1.0) or (tangente < 0.0 and tangente >= (-1.0)):
+        plt.ylim(-1.25, 1.25)  # define o limite de y no plot
+        plt.xlim(-1.25, 1.25)  # define o limite de x no plot
 
-    else:
-        plt.ylim(-(round(tangente, 0) + 0.5), (round(tangente, 0) + 0.5))  # limite de y
-        plt.xlim(-(round(tangente, 0) + 0.5), (round(tangente, 0) + 0.5))  # limite de y
+    elif tangente > 1.0 or tangente < (-1.0):
+        plt.ylim(-(round(tangente, 0) + 0.25), (round(tangente, 0) + 0.25))  # define o limite de y no plot
+        plt.xlim(-(round(tangente, 0) + 0.25), (round(tangente, 0) + 0.25))  # define o limite de x no plot
 
     # TRIANGULO
-    eixos.plot([0, x_cosseno], [0, 0], color="blue",
+    eixos.plot([0.0, x_cosseno], [0.0, 0.0], color="blue",
                label="cateto adjacente")  # define a posicao x e y da linha, inicial e final
-    eixos.plot([x_cosseno, x_cosseno], [0, y_seno], color="green", label="cateto oposto")
-    eixos.plot([0, x_cosseno], [0, y_seno], color="red", label="hipotenusa")
+    eixos.plot([x_cosseno, x_cosseno], [0.0, y_seno], color="green", label="cateto oposto")
+    eixos.plot([0.0, x_cosseno], [0.0, y_seno], color="red", label="hipotenusa")
 
-    if x_cosseno > 0:
-        eixos.plot([1.0, 1.0], [0, tangente], color="yellow", label="tangente")
-    elif x_cosseno < 0:
-        eixos.plot([-1.0, -1.0], [0, tangente], color="yellow", label="tangente")
+    if x_cosseno < 0.0:
+        eixos.plot([-1.0, -1.0], [0.0, tangente], color="orange", label="tangente")
+
+    elif x_cosseno > 0.0:
+        eixos.plot([1.0, 1.0], [0.0, tangente], color="orange", label="tangente")
         # caso cosseno igual a 0, tangente não existe, pois tangente = seno/cosseno
+
+    eixos.plot([x_cosseno, x_cosseno], [y_seno, y_seno], "o",
+               color="purple")  # ponto único, "o" define que vai ter formato de ponto
+    eixos.plot()  # reta para indicar a extensão para o encontro da tangente
 
     # EXIBIÇÃO
     plt.legend()  # mostra os rótulos escritos (ex: cat op, cat adj, hipotenusa)
-    plt.title("Nome do Gráfico")
+    plt.title("Trigonometria com Python")
     plt.show()
 
 #CÓDIGO FORA FUNÇÃO
