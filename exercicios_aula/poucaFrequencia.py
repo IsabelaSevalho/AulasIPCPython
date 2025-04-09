@@ -23,4 +23,4 @@ for i in range(T):
         if cont_presencas < (0.75 * cont_aulas):
             nao_cumpriram += nomes[i_aluno]+" "
 
-    print(nao_cumpriram)
+    print(nao_cumpriram.strip())
