@@ -2,9 +2,16 @@
 Este valor representa um valor monetário. A seguir, calcule o menor número de notas e
 moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2.
 As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.'''
+import math
 
 def quantasNotasParaValor(valor, numero):
-    return valor//numero
+    if numero == 0.01:
+        if ((valor / numero)-(valor // numero))>0.01:
+            return math.ceil(valor / numero)
+        else:
+            return math.floor(valor/numero)
+    else:
+        return valor // numero
 
 def valorNovoCalculo(valor, qntd, numero):
     valor-= qntd *numero
@@ -49,19 +56,18 @@ zerocinco = quantasNotasParaValor(valor_novo, 0.05)
 valor_novo = valorNovoCalculo(valor_novo, zerocinco, 0.05)
 
 zeroum = quantasNotasParaValor(valor_novo, 0.01)
-valor_novo = valorNovoCalculo(valor_novo, zeroum, 0.01)
 
 print(f"NOTAS:\n" +
-      f"{cem} nota(s) de R$ 100,00\n"+
-      f"{cinquenta} nota(s) de R$ 50,00\n"+
-      f"{vinte} nota(s) de R$ 20,00\n"+
-      f"{dez} nota(s) de R$ 10,00\n"+
-      f"{cinco} nota(s) de R$ 5,00\n"+
-      f"{dois}  nota(s) de R$ 2,00\n"+
+      f"{cem:.0f} nota(s) de R$ 100.00\n"+
+      f"{cinquenta:.0f} nota(s) de R$ 50.00\n"+
+      f"{vinte:.0f} nota(s) de R$ 20.00\n"+
+      f"{dez:.0f} nota(s) de R$ 10.00\n"+
+      f"{cinco:.0f} nota(s) de R$ 5.00\n"+
+      f"{dois:.0f} nota(s) de R$ 2.00\n"+
       f"MOEDAS:\n"+
-      f"{um} moeda(s) de R$ 1.00\n"+
-      f"{meio} moeda(s) de R$ 0.50\n"+
-      f"{quarto} moeda(s) de R$ 0.25\n"+
-      f"{zerodez} moeda(s) de R$ 0.10\n"+
-      f"{zerocinco} moeda(s) de R$ 0.05\n"+
-      f"{zeroum} moeda(s) de R$ 0.01")
+      f"{um:.0f} moeda(s) de R$ 1.00\n"+
+      f"{meio:.0f} moeda(s) de R$ 0.50\n"+
+      f"{quarto:.0f} moeda(s) de R$ 0.25\n"+
+      f"{zerodez:.0f} moeda(s) de R$ 0.10\n"+
+      f"{zerocinco:.0f} moeda(s) de R$ 0.05\n"+
+      f"{zeroum:.0f} moeda(s) de R$ 0.01")
