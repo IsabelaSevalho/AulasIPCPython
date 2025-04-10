@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e77b411-2d46-4e67-876e-3a1f7eca57a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicios_aula/xadrez.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios_aula/simuladoProvas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios_aula/testadoBeecrowd.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios_aula/testadoBeecrowd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +75,7 @@
     "Python.quatroDigitos19.executor": "Run",
     "Python.ricci14.executor": "Run",
     "Python.salarioComImposto.executor": "Run",
+    "Python.simuladoProvas.executor": "Run",
     "Python.strings1103.executor": "Run",
     "Python.testadoBeecrowd.executor": "Run",
     "Python.teste.executor": "Run",
