@@ -1,24 +1,26 @@
-import math
-t = int(input())
-for i in range(t):
-    pa, pb, g1, g2 = input().split(" ")
-    pa = int(pa)
-    pb = int(pb)
-    g1 = round(float(g1), 1)
-    g2 = round(float(g2), 1)
+n = int(input())
+posicao_inicial = input()
+final = posicao_inicial
 
-    tempo_anos = 0
+for i in range(n):
+    movimento = int(input())
 
-    while True:
-        if pa <= pb and tempo_anos<=100:
-            tempo_anos += 1
-        else:
-            break
+    if movimento == 1:
+        if final == "A":
+            final = "B"
+        elif final == "B":
+            final = "A"
 
-        pa += math.floor(pa * (g1 / 100))
-        pb += math.floor(pb * (g2 / 100))
+    elif movimento == 2:
+        if final == "B":
+            final = "C"
+        elif final == "C":
+            final = "B"
 
-    if tempo_anos > 100:
-        print("Mais de 1 seculo.")
     else:
-        print(f"{tempo_anos} anos.")
+        if final == "A":
+            final = "C"
+        elif final == "C":
+            final = "A"
+
+print(final)
